@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Generator Home</title>
+</head>
+<body>
+<h1>Welcome to Report Generator</h1>
+<p th:text="${message}"></p>
+
+<div>
+    <h2>Available Reports:</h2>
+    <ul>
+        <li><a href="/api/reports/html/preview?title=Test Report&generatedBy=Admin&department=IT">View HTML Preview</a></li>
+        <li><a href="/api/reports/pdf?title=Test Report&generatedBy=Admin&department=IT">Download PDF</a></li>
+        <li><a href="/api/reports/excel?title=Test Report&generatedBy=Admin&department=IT">Download Excel</a></li>
+    </ul>
+</div>
+</body>
+</html>
