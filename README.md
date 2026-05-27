@@ -1,13 +1,17 @@
 # PDF and Excel Generation
 
-* To download pdf go to this url:
-  
-  `http://localhost:8080/api/reports/pdf?title=My%20Report&generatedBy=John&department=IT`
+## Access the application:
 
-* To download excel, go to this url:
-  
-  `http://localhost:8080/api/reports/excel?title=My%20Report&generatedBy=John&department=IT`
+* Open browser and go to: http://localhost:8080
 
-* To preview visit this:
-  
-  `http://localhost:8080/api/reports/html/preview?title=My%20Report&generatedBy=John&department=IT`
+* To preview HTML:
+
+  `http://localhost:8080/api/reports/html/preview?title=My Report&generatedBy=John&department=IT`
+
+* To download PDF:
+
+  `http://localhost:8080/api/reports/pdf?title=My Report&generatedBy=John&department=IT`
+
+* To download Excel:
+
+  `http://localhost:8080/api/reports/excel?title=My Report&generatedBy=John&department=IT`
